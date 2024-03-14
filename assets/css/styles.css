@@ -211,7 +211,7 @@ section{
 
 .row-1{
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: space-between;
 }
 
@@ -256,3 +256,85 @@ footer div img{
     width: 2rem;
     height: 2rem;
 }
+
+/***********responsive***************/
+
+@media screen and (max-width: 868px){
+
+    header{
+        padding: 0px 5%;  
+        height: 80px;  
+    }
+    header div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Acceuil{
+        margin-top: 80px;
+    }
+
+    header div h1{
+        margin-bottom: 10px;
+    }
+    
+    .body{
+        height:100%-80px;
+    }
+    section{
+        padding: 0px 5%;
+        width: 100%;
+    }
+
+    .form-design{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .form-design img{
+        width: 100%;
+    }
+    
+    .formulaire{
+        width: 100%;
+    }
+
+    .mobile{   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer{
+        height: 50px;
+        padding: 0px 5%;
+        background-color:#d8dadb;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+
+    footer div{
+        width: 10%;
+    }
+
+    .nom-mobile{
+        font-size: 1.3rem;
+        
+    }
+
+    footer div img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+
